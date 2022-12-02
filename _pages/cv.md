@@ -6,54 +6,61 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
 {% include base_path %}
+<a href="/files/CV.pdf" download>Download CV here</a>
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+## Education
+* **Bogazici University, B.S. in Mechanical Engineering, 2017-2023**
+  * GPA: 3.59/4.00
+  * Teams: BU Autonomous Systems
+* **Technical University of Munich, B.S. in Mechanical Engineering, April 2022 - October 2022**
+  * Student Exchange Program
+  * Relevant coursework: Physics Informed Machine Learning, Applied Biorobotics, Control Theory
+* **Besiktas Sakip Sabanci High School, 2013-2017**
+  * GPA: 96.84/100, ranked 3rd  
+  * Activities: Sailing Team Member
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+## Experience
+* **Haptics&Robotics Lab, Undergraduate Researcher**
+  * 2022 November-Present,    Istanbul/Turkey
+  * Supervisor: Professor Evren Samur
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Turkish Aerospace Industries, Mechanical Engineering Intern**
+  * 2021 August-September,   Ankara/Turkey
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **FEV Turkey, Smart Vehicle Engineering Intern**
+  * 2022 January-April,   Istanbul/Turkey
+
+## Awards and Scholarships
+* Sakip Sabanci Scholar, for becoming 120th among 3 million students in the nationwide university placement exam. 
+
+## Skills
+* **Programming:** MATLAB/Simulink, Python, C/C++
+* **CAD:** Solidworks
+* **CAE:** Ansys Mechanical and Fluent, MSC ADAMS
+* **OS:** Windows, Ubuntu
+* **Other Computer Tools:** LaTex, Git, Microsoft Office  
+
+## Languages
+* **English:** Advanced
+* **German:**  A2
+* **Turkish:**  Native
+
+## Projects
+<!-- * Temperature Control of an Oil Heater -->
+* Design of a 3D LiDAR with One Actuator
+* Electric Motor Thermal Management for EVs and PHEVs
+* Load Balancing of a Mobile Application in Cloud
+* Automatic Guitar Tunning Machine
+<!-- * Autonomous Electric Car Competition -->
+
+## Student Club
+* **Core Team Member & Co-founder** - **Bogazici University Autonomous Systems Team** <br>
+Competed in the national autonomous electric vehicle race as a core team member and co-founder of the organization named Bogazici University Autonomous Systems. Worked on design, analysis, and simulation of mechanical and mechatronic components, vehicle manufacturing, PID controller, and project management.
+
+## Extracurricular
+* **Kitesurf Instructor** - **Myga Surf City** <br>
+Worked as a kitesurf instructor and taught kitesurf more than 100 people worldwide.
+
+* **President & Founder** - **Bogazici University Surf Community** <br> 
+Founded a surfing community in the university to teach surfing to new people and organize fun activities.
