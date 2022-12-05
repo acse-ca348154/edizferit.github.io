@@ -8,27 +8,33 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Ediz! Welcome to my personal website. :smile:
+Hi, I am Ediz!
 ------
 
 <p align="justify">
-I’m a senior mechanical engineering undergraduate student at Boğaziçi University which is a highly prestigious school with most of its students placed in 0.1% in the nationwide exam. With a 3.59 GPA, I am currently ranked 10th in the mechanical engineering department among 62 students.
+I’m currently a senior mechanical engineering student at Boğaziçi University.
 </p>
 
 <p align="justify">
-I love combining mathematics and software with my engineering knowledge. That's why I am trying to work on research and projects that includes these domains and in my free times I do programming as a fun activity. Currently, I am working in the Haptics & Robotics laboratory of my university about control of a soft robot. Besides, I am participating in a data science bootcamp where I learn about data analysis with Python.
+In the <A HREF="/projects/">Projects</A> section, you can find summaries of the projects I was involved in.
 </p>
 
-None academic stuff...
-------
+---
+
 <p align="justify">
-Kitesurf is by far my favourite sport. I learned it from my uncle and doing it since 2015. I became an instructor and taught kitesurf to people in Turkey and Portugal for two summers. In 2022, I founded a surf community in my university to introduce this sport to more people and organize surfing activities including wavesurf, windsurf, kitesurf, and wakeboard.
+I love combining mathematics and software with my engineering and physics knowledge. That's why I am trying to work on research and projects that includes these domains and in my free times I do programming as a fun activity. Currently, I am working in the Haptics & Robotics Laboratory of my university about control of a soft robot. Besides, I am participating in a data science bootcamp where I learn about data analysis with Python.
 </p>
+
 <p align="justify">
-I was always into sports. In primary school, I was a licensed basketball player. I believe part of my discipline and dedication are gained there. I started to play tennis in high school and I still do it in my free times. I also like skiing and hiking where you can discover new mountains and feel the nature.
+In my spare time, I like to do sports either myself or with a group through hobby clubs at my university, such as dance, mountaineering, and skiing clubs. Also, I am organizing events for the surfing community I founded at the beginning of 2022. I have been doing kitesurf since 2015, and now I want to introduce this sport to more people and enjoy surfing activities together. In the Summer of 2020, I worked as a kitesurf instructor in Izmir, Turkey, where I taught kitesurf to people from all over the world.
 </p>
+
 
 <center>
-<img src="/images/board.jpg" alt="Amplifier Circuit" style="height:300px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
-<img src="/images/kite.jpg" alt="Fast Fourier Transform" style="height: 300px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+<img src="/images/ab_kite.jpg" alt="Me Doing Kitesurf" style="height:400px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+<img src="/images/ab_ski.jpg" alt="Me Skiing" style="height: 400px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+</center>
+
+<center>
+<img src="/images/ab_likya.jpg" alt="Me on a Terkking Route" style="height: 340px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
 </center>

@@ -1,6 +1,6 @@
 ---
 title: "Automatic Guitar Tuning Machine"
-img: kapak.jpg
+img: gt_cover.webp
 collection: project
 date: 2021-04-03
 ---

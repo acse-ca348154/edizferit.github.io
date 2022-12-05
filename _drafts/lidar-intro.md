@@ -1,0 +1,3 @@
+<img align="right" src="/images/ld_illustration.jpg" alt="LiDAR Illustration" style="height:200px; border-radius: 3px; margin-top: 30px; margin-bottom: 8px; margin-left: 3px;">
+
+Lidar is an accurate range-finding device with many use cases, such as autonomous vehicles and topographical mapping. They are even used in our cell phones for face recognition. They process the collected range and angle data to create a **point cloud**.

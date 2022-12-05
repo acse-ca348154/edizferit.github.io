@@ -18,7 +18,7 @@ redirect_from:
   * Relevant coursework: Physics Informed Machine Learning, Applied Biorobotics, Control Theory
 * **Besiktas Sakip Sabanci High School, 2013-2017**
   * GPA: 96.84/100, ranked 3rd  
-  * Activities: Sailing Team Member
+  * Activities: Sailing Team Member, Debate Team Member
 
 ## Experience
 * **Haptics&Robotics Lab, Undergraduate Researcher**
@@ -32,7 +32,7 @@ redirect_from:
   * 2022 January-April,   Istanbul/Turkey
 
 ## Awards and Scholarships
-* Sakip Sabanci Scholar, for becoming 120th among 3 million students in the nationwide university placement exam. 
+* Sakip Sabanci Scholar, for becoming 138th among 3 million students in the nationwide university placement exam. 
 
 ## Skills
 * **Programming:** MATLAB/Simulink, Python, C/C++

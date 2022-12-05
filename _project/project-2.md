@@ -1,49 +1,97 @@
 ---
 title: "Design of a LiDAR"
-img: IonThruster.webp
+img: ld_rendered.webp
 collection: project
 date: 2022-12-05
 ---
-<div align="justify">
-There are many types of propulsion systems used in space applications. The most general category is liquid-fueled high-thrust rocket engines used during the mission's ascent phase. Generally, these engines fire for around 100-120 seconds with extremely high amounts of thrust. Another category is electrified propulsion which uses ionized Xenon gas. Even though they have little thrust compared to their liquid-fueled counterparts, they become beneficial for their efficiency and precision during course correction burns. Long space missions using multiple gravity assists or communications satellites rely on them for their unique properties.
-</div>
-<br />
+
+A novel mechanical Lidar design is created, which proposes two axes rotation with only one actuator. This enables the construction of a 3D map using only one motor and one rangefinder, reducing Lidar's cost. 
+
+A combination of gear,  worm gear, and planetary gear is used to enable two axes rotation with only one axis torque input. 
+
+### MSC Adams
+
+<center>
+<img src="/images/ld_adams.jpg" alt="Proposed design" style="height: 350px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+</center>
+<br>
+At first, the proposed gear combination is dynamically simulated in MSC ADAMS, which is a multibody dynamic simulation software. Results verified that the rangefinder (red) moved one degree upwards in each revolution of the motor, which is connected to the arm (yellow). The relative rotation speeds of the ring gear and the worm gear enable this motion of the laser sensor.
+
+### Solidworks
+
+<center>
+<img src="/images/ld_solid.jpg" alt="Solidworks Drawing with Cap" style="height:450px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+<img src="/images/ld_solid_no_cap.jpg" alt="Solidworks Drawing without Cap" style="height: 450px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+</center>
+<br>
+The design is finalized in Solidworks by adding all other components like supports, slip ring, and cover, which holds the rangefinder. Static simulation is carried out to confirm the device's mechanical resistance against static failure.
+
+### Data Transfer Calculations
+
+The microcontroller is chosen according to the necessary data transfer speed and amount. Data sizes regarding the three defining coordinates are shown below:
+
+<img align="right" src="/images/ld_point.jpg" alt="LiDAR Illustration" style="height:150px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px; margin-left: 3px;">
+
+* **Vertical angle**: 7 bit. 
+_Vertical field of view is 120° with 1° resolution, 7 bit = $2^7$ = 128_
+* **Horizontal angle**: 9 bit.
+_Horizontal field of view is 360° with 1° resolution, 9 bit = $2^9$ = 512_
+* **Distance**: 11 bit.
+_Range is 20 m with 1 cm resolution, 0.00 – 20.00, 11 bit = $2^{11}$ = 2048_
+
+<center>
+<img src="/images/ld_data_transfer.jpg" alt="Data Transfer Diagram" style="width: 60.0%; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;">
+</center>
+
+### Optimization of Gear Parameters
+
+Specialties of the number of teeth, diameter, module, and face width of the gears are optimized in Matlab.
+
+The following checks are done in Matlab:
+
+1. There must be no **interference**. 
+2. **Contact ratio** should be greater than 1.4.
+3. **Pitch line velocity** should not be too large in case of high dynamic effects.
+
+<img align="left" src="/images/ld_velocities.jpg" alt="LiDAR Illustration" style="height:200px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px; margin-left: 3px; margin-right: 30px">
+
+Governing equations and constraints:
+1.  $w_{ring} = (w_{ring} - w_{arm}) (360 / N_{gear})$
+
+_Gear should rotate one degree in each revolution of the arm._
+ 
+2.  $w_{arm} / w_{ring} = N_{ring} / (N_{sun} + N_{ring})$  
+
+_Pitch line velocity must be the same at the contact point._
+  
+3.  $r_{worm} + r_{gear} = r_{sun} + d_{planet}$
+
+_Rangefinder must be vertically aligned with the edge of the planet gear._
+
+### Main Components
+
+* Rangefinder:
+  * Lite v3HP
+* Microcontroller:
+  * Arduino Uno
+* Motor-Encoder:
+  * Pololu brand DC motor with 1030 rpm, 9.7:1 reducer ratio, 48 ppr
+* Slip Ring:
+  * Hollow shaft slip ring
+* Gears:
+  * Module: 4 mm
+  * Face width: 40 mm
+  * Pressure angle: 20°
+
+### Dynamic Simulation Recording
 
 <center>
 <video class="projectVideo" muted autoplay loop>
-  <source src="/videos/FlowSimulationWithoutRef.mp4" type="video/mp4">
+  <source src="/videos/ld.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </center>
 <center>
-<u><i><b>Ion Charge Density Result</b></i></u>
+<u><i><b>Dynamic Simulation Result by MSC Adams</b></i></u>
 </center>
 <br />
-<div align="justify">
-Some electric propulsion methods include pressure-feed thrust, where the pressure results from the repulsive electric force between ionized gas molecules. The type of system that we are interested in is ion thrusters. They generate plasma by exciting the initially neutral Xenon gas and accelerating it between anode and cathode grids, specifically screen and acceleration grids. High electric potential difference causes a strong electric field in this region. The grid region is the equivalent of the converging-diverging nozzle in liquid-fueled engines, except that there is an electric force rather than thermodynamic effects of compressible flow.
-</div>
-
-<center>
-<img src="/images/electricPotential.png" alt="Electric Potential" style="resolution=150dpi;width=95.0%;"/>
-</center>
-
-<div align="justify">
-A custom finite element code is written in C++ to compute electric potential from Poisson's equation, derive the resultant electric field, create ion and neutral macroparticles, move them with electric force and apply collisions or reflections if necessary. <b><i>PIC</i></b> stands for *Particle in Cell* method in which the motion of the particles is executed continuously, but a weighting procedure is used to assign them to nearby mesh nodes to be able to solve the finite element equations. <b><i>DSMC</i></b> is acronym for *Direct Simulation Monte-Carlo*. In my opinion, it is a fancy way of saying probability:smile: However, it is advantageous when an analytical model will be computationally heavier. For our case, we use DSMC to find whether or not a collision has occurred, assignment of the initial velocity of ions using Maxwellian Velocity Distribution, and position assignment for particles to enter into the domain.
-
-Two types of solvers are used to extract electric potential at mesh nodes from discretized Poisson's equation. To optimize the code using the symmetries of the system, we only simulate the triangular prism volume and use cylindrical coordinates to construct equations. Neumann and Dirichlet boundary conditions are used to specify grid walls and boundaries of the simulation domain.
-</div>
-<br />
-
-<center>
-<video class="projectVideo" muted autoplay loop>
-  <source src="/videos/FlowSimulationWithRef.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-</center>
-<center>
-<u><i><b>Ion Charge Density Result if Screen Grid Reflected Ions as Ions</b></i></u></center>
-<br />
-
-<div align="justify">
-The last video may be misleading, but it is an aesthetically pleasing simulation. You can see the reflected wave later constructs a Mach diamond-like shape. At first, the reflection of ions from the screen grid was permitted, but as it turns out, just like the acceleration grid, the screen grid causes ions to lose their charge and reflect them as neutrals, too. 
-</div>
