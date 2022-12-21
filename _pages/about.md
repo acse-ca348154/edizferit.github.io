@@ -22,11 +22,11 @@ In the <A HREF="/projects/">Projects</A> section, you can find summaries of the 
 ---
 
 <p align="justify">
-I love combining mathematics and software with my engineering and physics knowledge. That's why I am trying to work on research and projects that includes these domains and in my free times I do programming as a fun activity. Currently, I am working in the Haptics & Robotics Laboratory of my university about control of a soft robot. Besides, I am participating in a data science bootcamp where I learn about data analysis with Python.
+I love combining mathematics and software with my engineering knowledge. That's why I want to work on interdisciplinary research and projects that include these domains, such as computational science and engineering, control, and optimization. In my free time, I like to learn programming and computer tools that will help me increase my creativity, such as Html, CSS, and video and photo editors. Also, dealing with old computers or electronic gadgets to repair or build new versions gives me great fun. Currently, I am working in my university's Haptics & Robotics Laboratory on the modeling and simulation of a soft robot. Besides, I am participating in a data science bootcamp where I am learning about data analysis with Python.
 </p>
 
 <p align="justify">
-In my spare time, I like to do sports either myself or with a group through hobby clubs at my university, such as dance, mountaineering, and skiing clubs. Also, I am organizing events for the surfing community I founded at the beginning of 2022. I have been doing kitesurf since 2015, and now I want to introduce this sport to more people and enjoy surfing activities together. In the Summer of 2020, I worked as a kitesurf instructor in Izmir, Turkey, where I taught kitesurf to people from all over the world.
+In my spare time, I like to do almost all kinds of sports, such as tennis, basketball, and football, which I do from time to time with friends. At my university, I participated in hobby clubs such as dance, mountaineering, and skiing. My true passion is nature sports, where I feel the freedom and the beauty of the world entirely. I have been doing kitesurf since 2015 and became an instructor over the years. In the Summer of 2020, I worked as a kitesurf instructor in Izmir, Turkey, where I enjoyed teaching kitesurf to many people coming from all over the world. Also, I founded a surfing community at my university at the beginning of Fall 2022 to introduce this sport to more people and enjoy surfing activities together.
 </p>
 
 
