@@ -11,7 +11,7 @@ redirect_from:
 
 ## Education
 * **Bogazici University, B.S. in Mechanical Engineering, 2017-2023**
-  * GPA: 3.59/4.00
+  * GPA: 3.62/4.00
   * Teams: BU Autonomous Systems
 * **Technical University of Munich, B.S. in Mechanical Engineering, April 2022 - October 2022**
   * Student Exchange Program
@@ -21,10 +21,6 @@ redirect_from:
   * Activities: Sailing Team Member, Debate Team Member
 
 ## Experience
-* **Haptics&Robotics Lab, Undergraduate Researcher**
-  * 2022 November-Present,    Istanbul/Turkey
-  * Supervisor: Professor Evren Samur
-
 * **Turkish Aerospace Industries, Mechanical Engineering Intern**
   * 2021 August-September,   Ankara/Turkey
 
@@ -35,7 +31,7 @@ redirect_from:
 * Sakip Sabanci Scholar, for becoming 138th among 3 million students in the nationwide university placement exam. 
 
 ## Skills
-* **Programming:** MATLAB/Simulink, Python, C/C++
+* **Programming:** MATLAB/Simulink, Python, C
 * **CAD:** Solidworks
 * **CAE:** Ansys Mechanical and Fluent, MSC ADAMS
 * **OS:** Windows, Ubuntu
@@ -43,7 +39,7 @@ redirect_from:
 
 ## Languages
 * **English:** Advanced
-* **German:**  A2
+* **German:**  Beginner
 * **Turkish:**  Native
 
 ## Projects
