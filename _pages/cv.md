@@ -6,8 +6,6 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-{% include base_path %}
-<a href="/files/CV.pdf" download>Download CV here</a>
 
 ## Education
 * **Bogazici University, B.S. in Mechanical Engineering, 2017-2023**
