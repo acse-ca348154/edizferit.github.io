@@ -26,14 +26,14 @@ redirect_from:
   * 2022 January-April,   Istanbul/Turkey
 
 ## Awards and Scholarships
-* Sakip Sabanci Scholar, for becoming 138th among 3 million students in the nationwide university placement exam. 
+* Sakip Sabanci Scholar, for becoming top student in my high school in the nationwide university placement exam. 
 
 ## Skills
-* **Programming:** MATLAB/Simulink, Python, C
+* **Programming:** MATLAB/Simulink, Python, C/C++, LaTeX
 * **CAD:** Solidworks
 * **CAE:** Ansys Mechanical and Fluent, MSC ADAMS
 * **OS:** Windows, Ubuntu
-* **Other Computer Tools:** LaTex, Git, Microsoft Office  
+* **Other Computer Tools:** Git, VirtualBox, Microsoft Office, HTML  
 
 ## Languages
 * **English:** Advanced
@@ -41,7 +41,7 @@ redirect_from:
 * **Turkish:**  Native
 
 ## Projects
-<!-- * Temperature Control of an Oil Heater -->
+* Temperature Control of an Oil Heater
 * Design of a 3D LiDAR with One Actuator
 * Electric Motor Thermal Management for EVs and PHEVs
 * Load Balancing of a Mobile Application in Cloud
