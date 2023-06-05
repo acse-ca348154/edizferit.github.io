@@ -12,7 +12,7 @@ Hi, I am Ediz!
 ------
 
 <p align="justify">
-As a passionate mechanical engineer, I graduated from Boğaziçi University in January 2023.
+I studied mechanical engineering at Boğaziçi University and graduated in January 2023.
 </p>
 
 <p align="justify">
