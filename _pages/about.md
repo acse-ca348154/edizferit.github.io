@@ -12,7 +12,7 @@ Hi, I am Ediz!
 ------
 
 <p align="justify">
-I’m currently a senior mechanical engineering student at Boğaziçi University.
+As a passionate mechanical engineer, I graduated from Boğaziçi University in January 2023.
 </p>
 
 <p align="justify">
