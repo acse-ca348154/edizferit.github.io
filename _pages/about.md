@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Ediz!
+Hello, I am Ediz!
 ------
 
 <p align="justify">
