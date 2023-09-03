@@ -13,7 +13,7 @@ name                     : &name "Ediz Ferit Kula"
 description              : &description "personal description"
 url                      : https://edizferit.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "acse-ca348154/acse-ca348154.github.io"
+repository               : "edizferit/edizferit.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -55,7 +55,7 @@ author:
   email            : "edizferit@gmail.com"
   researchgate     :  
   facebook         :
-  github           : "acse-ca348154"
+  github           : "edizferit"
   instagram        :
   linkedin         : "edizferit"
   stackoverflow    : 
