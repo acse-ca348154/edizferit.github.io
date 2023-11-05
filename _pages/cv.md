@@ -8,12 +8,12 @@ redirect_from:
 ---
 
 ## Education
-* **Imperial College London, MSc. in Applied Computational Science and Engineering, 2023-2024**
+* **Imperial College London, MSc in Applied Computational Science and Engineering, 2023-2024**
   * TEV-Imperial Scholar (covers full tuition fees and living expenses)
-* **Bogazici University, BSc. in Mechanical Engineering, 2017-2023**
+* **Bogazici University, BSc in Mechanical Engineering, 2017-2023**
   * GPA: 3.62/4.00
   * Teams: BU Autonomous Systems
-* **Technical University of Munich, BSc. in Mechanical Engineering, April 2022 - October 2022**
+* **Technical University of Munich, BSc in Mechanical Engineering, April 2022 - October 2022**
   * Student Exchange Program
   * Relevant coursework: Physics Informed Machine Learning, Applied Biorobotics, Control Theory
 * **Besiktas Sakip Sabanci High School, 2013-2017**
