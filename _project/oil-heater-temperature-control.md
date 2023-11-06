@@ -1,6 +1,6 @@
 ---
 title: "Temperature Control of an Oil Heater"
-img: tc_oil.png
+img: tc_oil_cycle.jpg
 collection: project
 date: 2022-07-09
 ---
