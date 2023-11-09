@@ -1,8 +1,8 @@
 ---
 title: "Temperature Control of an Oil Heater"
-img: tc_oil_cycle.jpg
+img: tc_kapak.png
 collection: project
-date: 2022-07-09
+date: 2023-01-09
 ---
 
 # Oil Heater Simulation
@@ -16,10 +16,22 @@ The simulink models and the LaTeX code can be found [here](https://github.com/ed
 ---
 
 The diagram that represents the oil cycle and the default control strategy applied at the heater to keep the oil at the desired temperature is given below:
-![Alt text](../images/def.png)
+
+<center>
+<img src="/images/tc_def.png" alt="Experiment Setup" style="height:250px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+</center>
+<br>
 
 Curve fitting techniques are applied to the experimental data to obtain several variables. Below figue is an example showing the fitted functions which are used to find the heat transfer at the evaporator with respect to the temperature.
-![Alt text](../images/evaporator_curve_fit.png)
+
+<center>
+<img src="/images/tc_evaporator_curve_fit.png" alt="Experiment Setup" style="height:250px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+</center>
+<br>
 
 The experimental data is split to two parts as training and validation, which can be seen below:
-![Alt text](../experimental-data.png)
+
+<center>
+<img src="/images/tc_experimental-data.png" alt="Experiment Setup" style="height:250px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+</center>
+<br>
