@@ -24,7 +24,7 @@ In the <A HREF="/projects/">Projects</A> section, you can find summaries of the 
 ## Brief personal background...
 
 <p align="justify">
-I grew up in Istanbul, Turkey, as a curious child. I guess it was my mom's encyclopedias that cultivated my love for nature or my father's science magazines. I received my bachelor's degree in Mechanical Engineering at Boğaziçi University, known for its excellent education and social environment. I also studied one semester at Technical University of Munich with erasmus program. I did my research internship at FEV, an automotive R&D company, and later I worked there for four months. 
+I grew up in Istanbul, Turkey, with my mom's encyclopedias and my father's science magazines. This motivated me to pursue my bachelor's degree in Mechanical Engineering at Boğaziçi University, known for its excellent education and social environment. I also studied one semester at Technical University of Munich with erasmus program. I did my research internship at FEV, an automotive R&D company, and later I gained industry experience there for four months. 
 </p>
 
 <p align="justify">
