@@ -1,8 +1,7 @@
 ---
 title: "Automatic Guitar Tuning Machine"
 img: gt_cover.webp
-collection: project
-date: 2021-04-03
+date: 2020-04-03
 ---
 
 <div align="justify">

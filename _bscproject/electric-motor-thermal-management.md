@@ -1,7 +1,6 @@
 ---
 title: "Electric Motor Thermal Management for EVs and PHEVs"
 img: tm_cover.webp
-collection: project
 date: 2021-01-03
 ---
 

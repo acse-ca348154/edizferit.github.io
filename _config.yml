@@ -49,8 +49,8 @@ analytics:
 author:
   name             : "Ediz Ferit Kula"
   avatar           : "cv.jpg"
-  bio              : "MSc Student in Applied Computational Science and Engineering at Imperial College London."
-  location         : "Istanbul / TURKEY"
+  bio              : "MSc Student in Computational Science at Imperial College London."
+  location         : "London / UK"
   googlescholar    :
   email            : "edizferit@gmail.com"
   researchgate     :  
@@ -121,7 +121,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  project:
+  bscproject:
+    output: true
+    permalink: /:collection/:path/
+  mscproject:
     output: true
     permalink: /:collection/:path/
 
@@ -143,10 +146,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _project
+  # _bscproject
   - scope:
       path: ""
-      type: project
+      type: bscproject
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _mscproject
+  - scope:
+      path: ""
+      type: mscproject
     values:
       layout: single
       author_profile: true

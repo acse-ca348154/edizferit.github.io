@@ -1,14 +1,14 @@
 ---
-layout: projects
-title: "Projects"
-permalink: /projects/
+layout: mscprojects
+title: "MSc Projects"
+permalink: /msc-projects/
 author_profile: true
 redirect_from:
-  - /projects
+  - /msc-projects
 ---
 {% include base_path %}
 
-{% for post in site.project reversed%}
+{% for post in site.mscproject reversed%}
   <div class="chapter">
     <a href="{{post.url | prepend: site.baseurl}}">
       {% if post.img %}

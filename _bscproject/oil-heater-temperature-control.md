@@ -1,7 +1,6 @@
 ---
 title: "Temperature Control of an Oil Heater"
 img: tc_kapak.png
-collection: project
 date: 2023-01-09
 ---
 

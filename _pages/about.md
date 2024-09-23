@@ -12,11 +12,19 @@ Hello, I am Ediz!
 ------
 
 <p align="justify">
-Welcome to my personal website! I am a MSc student in Applied Computational Science and Engineering at Imperial College London.
+Welcome to my personal website!
 </p>
 
 <p align="justify">
-In the <A HREF="/projects/">Projects</A> section, you can find summaries of the projects I was involved in. The projects include a variety of topics such as signal processing, CFD analysis, control, simulation, and a racing competition. All these helped me to build a strong methodological engineering foundation. During that time, I discovered my true passion lies in combining mathematics and software to solve scientific and engineering challenges.
+I have just finished my MSc in Applied Computational Science and Engineering at Imperial College London. Currently, I am working on the manuscript of my thesis for publication. My thesis is about a proxy AI model that speeds up physics simulation.
+</p>
+
+<p align="justify">
+In the <A HREF="/bsc-projects/">Bachelor's Projects</A> section, you can find summaries of the projects I was involved in during my bachelor's studies at Bogazici University and Technical University of Munich. The projects include a variety of topics such as signal processing, CFD analysis, control, simulation, and a racing competition.
+</p>
+
+<p align="justify">
+In the <A HREF="/msc-projects/">Master's Projects</A> section, you can find summaries of the class projects I have done during my master's at Imperial College London. This section is still under development, and once it is finished, it will include projects related to optimisation, inversion, image processing, parallel programming, and machine learning.
 </p>
 
 ---
@@ -24,11 +32,11 @@ In the <A HREF="/projects/">Projects</A> section, you can find summaries of the 
 ## Brief personal background...
 
 <p align="justify">
-I grew up in Istanbul, Turkey, with my mom's encyclopedias and my father's science magazines. This motivated me to pursue my bachelor's degree in Mechanical Engineering at Boğaziçi University, known for its excellent education and social environment. I also studied one semester at Technical University of Munich with erasmus program. I did my research internship at FEV, an automotive R&D company, and later I gained industry experience there for four months. 
+I grew up in Istanbul, Turkey, with my mom's encyclopedias and my father's science magazines. This motivated me to pursue my bachelor's degree in Mechanical Engineering at Boğaziçi University. During that time, I discovered that my true passion lies in combining mathematics and software to solve scientific and engineering challenges. Thus, I continued with a computational science master's at Imperial College London.
 </p>
 
 <p align="justify">
-In my spare time, I enjoy participating in a wide range of sports, such as tennis, lindy hop, mountaineering, skiing, and kitesurfing. My true passion lies in outdoor sports, particularly those that allow me to connect with nature. In 2015, I started practicing kitesurfing and progressed to become an instructor over time. In the summer of 2020, I worked as a kitesurfing instructor in Izmir, Turkey, where I taught people from different parts of the globe. Moreover, I founded a surfing community at my university, introducing this sport to more individuals and enjoying surf activities together. While I won't be here to lead the community further, there are exciting plans in the pipeline! 😄
+In my spare time, I enjoy participating in a wide range of sports, such as tennis, bouldering, lindy hop, skiing, and kitesurfing. In 2015, I started practising kitesurfing and progressed to become an instructor over time. In the summer of 2020, I worked as a kitesurfing instructor in Izmir, Turkey, where I taught people from different parts of the globe. Moreover, I founded a surfing community at Bogazici University and a wakeboard society at Goodenough College, where I resided during my master's studies. 😄
 </p>
 
 

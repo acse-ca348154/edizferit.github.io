@@ -1,7 +1,6 @@
 ---
 title: "Design of a LiDAR"
 img: ld_rendered.webp
-collection: project
 date: 2022-12-05
 ---
 
