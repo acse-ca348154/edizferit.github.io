@@ -41,10 +41,11 @@ In my spare time, I enjoy participating in a wide range of sports, such as tenni
 
 
 <center>
-<img src="/images/ab_kite.jpg" alt="Me Doing Kitesurf" style="height:400px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
-<img src="/images/ab_ski.jpg" alt="Me Skiing" style="height: 400px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+<img src="/images/ab_sule.jpg" alt="Me At Scholarship Reception" style="height:335px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+<img src="/images/ab_kite.jpg" alt="Me Doing Kitesurf" style="height:335px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+<img src="/images/ab_ski.jpg" alt="Me Skiing" style="height: 335px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
 </center>
 
 <center>
-<img src="/images/ab_likya.jpg" alt="Me on a Trekking Route" style="height: 340px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
+<img src="/images/ab_likya.jpg" alt="Me on a Trekking Route" style="height: 330px; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;"/>
 </center>
