@@ -42,3 +42,13 @@ AI predictions closely resemble the physics simulation, as shown in the comparis
 <div align="justify">
 More information will be available once the paper is published. For further inquiries, please contact me via email.
 </div>
+
+### Code Avaliability
+<div align="justify">
+The source code is available in [this](https://github.com/acse-efk23/WebAI) GitHub repository.
+</div>
+
+<div align="justify">
+At the moment, the data is not publicly available.
+</div>
+
