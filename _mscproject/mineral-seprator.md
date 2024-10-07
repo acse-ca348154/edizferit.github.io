@@ -32,11 +32,11 @@ Simulation is divided into rectangular domains that are as close to square as po
 I tested the performance using a number of cores and plotted the speedup and efficiency results, as seen above. With 4 processors, we can gain 2.5 times speedup.
 
 
-Simulation video with periodic boundary conditions:
+<!-- Simulation video with periodic boundary conditions:
 <center>
 <img src="/images/pp_gif.gif" alt="Speedup vs Clusters" style="width: 90.0%; border-radius: 3px; margin-top: 8px; margin-bottom: 8px;">
 </center>
-<br />
+<br /> -->
 
 # 2. Optimising Mineral Separation Circuits
 
