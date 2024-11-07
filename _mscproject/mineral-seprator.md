@@ -4,7 +4,10 @@ img: ms_kapak.webp
 date: 2024-04-03
 ---
 
-The two projects where I used parallel programming during my master's at Imperial are summarised.
+The two projects where I used parallel programming during my master's at Imperial are summarised:
+
+1. [Parallelising PDE Solver](#1-parallelising-pde-solver)
+2. [Optimising Mineral Separation Circuits](#2-optimising-mineral-separation-circuits)
 
 
 # 1. Parallelising PDE Solver

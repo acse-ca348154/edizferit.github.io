@@ -4,7 +4,11 @@ img: ml_kapak.webp
 date: 2024-01-01
 ---
 
-The three machine learning projects I completed during my master's at Imperial are summarised.
+The three machine learning projects I completed during my master's at Imperial are summarised:
+
+1. [Rock Characterisation](#1-rock-characterisation)
+2. [Medical Image Generation](#2-medical-image-generation)
+3. [Storm Prediction](#3-storm-prediction)
 
 # 1. Rock Characterisation
 
